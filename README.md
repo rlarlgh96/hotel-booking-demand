@@ -6,7 +6,7 @@
 
 ## 프로젝트 수행 과정
 ### Data Description
-- 데이터셋에서 각 feature가 나타내는 정보를 파악하기 위해 Data Description을 작성하였다.
+- 데이터셋에서 각 feature가 나타내는 의미를 파악하기 위해 Data Description을 작성하였다.
 - 대회 페이지에 작성된 Data Description은 러시아어로 작성되있어, 이를 번역 및 검색한 내용을 토대로 Data Description을 작성하였다.
   
 ### EDA
