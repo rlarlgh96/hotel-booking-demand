@@ -1,0 +1,74 @@
+﻿Data description
+1. hotel
+- 호텔의 종류
+- City Hotel 또는 Resort Hotel
+2. is canceled
+- 고객의 예약 취소 여부
+- 0 또는 1
+3. lead time
+- 예약이 이뤄진 일자와 예정 도착일 사이의 일수
+4. arrival date year/month/week number/day of a month
+- 도착일 정보(년도/월/주/일)
+- week number는 1년 중 몇번째 주인지를 뜻하며, 1년은 52주이다. ex) 1월 1일: 1번째 주, 12월 31일: 53번째 주
+5. stays in week/weekend nights
+- 이용했거나 예약한 평일(월~금)/주말(토,일) 밤 수
+6. adults/children/babies
+- 연령대별 사람 수
+7. meal
+- 식사 제공 여부
+- Undefined/SC: no meals included
+- BB: breakfast only
+- HB: breakfast and one other meal(usually dinner)
+- FB: breakfast, lunch, and dinner included
+8. country
+- 국적
+9. market segment
+- 시장 세분화, TA(Travel Agents)는 여행사, TO(Tour Operators)는 관광업체를 나타냄.
+- Online TA: 온라인 여행사
+- Offline TA/TO: 오프라인 여행사/관광업체
+- Direct: 직접 예약 고객
+- Groups: 단체 단위 고객
+- Corporate: 협력사 고객
+- Aviation: 항공사
+- Complementary: 무료 투숙 고객
+10. distribution channel
+- 객실 예약 경로
+- TA/TO: 여행사 혹은 관광업체(ex: 아고라, 부킹닷컴, 야놀자 등)
+- Direct: 직접 예약(ex: 호텔 내 웹사이트 예약, 전화 예약 등)
+- Corporate: 협력사
+11. is repeated guest
+- 고객이 재방문 고객인지를 나타냄
+- 0 또는 1
+12. previous cancellations
+- 현재 예약 전에 취소한 이전 예약 수
+13. previous bookings not canceled
+- 현재 예약 전에 취소하지 않은 이전 예약 수
+14. reserved room type
+- 예약한 객실 타입 코드
+- A, B, C, D, E, F, G, H, P
+15. assigned room type
+- 예약에 배정된 객실 타입 코드, 호텔의 운영상의 이유 또는 고객 요청에 의해 예약된 객실 타입과 다른 경우가 존재
+- A, B, C, D, E, F, G, H, I, J, K, P
+16. booking changes
+- 예약 입력 시점부터 체크인 또는 예약 취소 시점까지 예약에 입력된 변경 또는 추가 횟수
+17. deposit type
+- 보증금 지불 여부
+- No Deposit: 보증금 지불 X
+- Non Refund: 총 숙박비만큼 보증금 지불
+- Refundable: 보증금 일부 지불
+18. days in waiting list
+- 예약이 확정되기 전까지 고객이 대기자 명단에 있었던 일수
+19. customer type
+- 예약 유형
+- Contract: 계약 관계에 있는 예약
+- Group: 단체 예약
+- Transient: 개인에 의한 예약, 예약이 단체 또는 계약의 일부가 아니며 다른 일시적 예약과 관련이 없는 경우(walk-in guests, guests with a last-minute booking)
+- Transient-party: 마찬가지로 개인에 의한 예약이나 다른 일시직 예약과 관련된 경우
+20. adr
+- Average Daily Rate, 판매된 객실의 평균 요금
+21. required car parking spaces
+- 요청한 주차 공간 수
+22. total_of_special_requests
+- 특별 요청 수
+23. reservation_status_date
+- 고객이 예약을 취소한 일자 또는 체크아웃한 일자
